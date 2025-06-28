@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Other() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -5,10 +7,10 @@ export default function Other() {
       <nav className="flex justify-between items-center p-6 border-b border-gray-800">
         <div className="text-2xl font-serif text-rose-300">SN</div>
         <div className="flex items-center space-x-8">
-          <a href="/" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Home</a>
-          <a href="/travel" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Travel</a>
-          <a href="/tech" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Tech</a>
-          <a href="/other" className="text-rose-300 font-light tracking-wide">Other</a>
+          <Link href="/" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Home</Link>
+          <Link href="/travel" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Travel</Link>
+          <Link href="/tech" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Tech</Link>
+          <Link href="/other" className="text-rose-300 font-light tracking-wide">Other</Link>
           <button className="bg-rose-300 text-black px-5 py-2 rounded-full hover:bg-rose-200 transition-colors font-light tracking-wide">Search</button>
         </div>
       </nav>
