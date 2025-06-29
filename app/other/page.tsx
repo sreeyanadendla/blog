@@ -5,7 +5,10 @@ export default function Other() {
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
       <nav className="flex justify-between items-center p-6 border-b border-gray-800">
-        <div className="text-2xl font-serif text-rose-300">SN</div>
+      <Link href="/" className="text-2xl font-serif text-rose-300 cursor-pointer hover:text-rose-200 transition-colors">
+  SN
+</Link>
+
         <div className="flex items-center space-x-8">
           <Link href="/" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Home</Link>
           <Link href="/travel" className="text-white hover:text-rose-300 transition-colors font-light tracking-wide">Travel</Link>
