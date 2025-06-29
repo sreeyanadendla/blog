@@ -146,9 +146,30 @@ export default function Home() {
             <div>
               <h3 className="text-white font-light mb-4 tracking-wide">Follow Along</h3>
               <div className="flex justify-center space-x-6">
-                <a href="#" className="text-gray-300 hover:text-rose-300 transition-colors font-light">Instagram</a>
-                <a href="#" className="text-gray-300 hover:text-rose-300 transition-colors font-light">Twitter</a>
-                <a href="#" className="text-gray-300 hover:text-rose-300 transition-colors font-light">LinkedIn</a>
+                <a
+                  href="https://instagram.com/sreeya_nadendla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-rose-300 transition-colors font-light"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="https://twitter.com/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-rose-300 transition-colors font-light"
+                >
+                  Twitter
+                </a>
+                <a
+                  href="https://linkedin.com/in/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-rose-300 transition-colors font-light"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
